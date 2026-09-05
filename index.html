@@ -1,1 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <title>House of Aashiva</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            color: #222;
+            background: #fff;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 7%;
+            border-bottom: 1px solid #eee;
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            letter-spacing: 2px;
+        }
+
+        nav a {
+            margin-left: 25px;
+            text-decoration: none;
+            color: #222;
+            font-size: 14px;
+        }
+
+        .hero {
+            height: 75vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            background: #f5f0eb;
+        }
+
+        .hero h1 {
+            font-size: 55px;
+            letter-spacing: 5px;
+            margin-bottom: 15px;
+        }
+
+        .hero p {
+            font-size: 18px;
+            margin-bottom: 30px;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 14px 30px;
+            background: #222;
+            color: white;
+            text-decoration: none;
+            font-size: 14px;
+        }
+
+        section {
+            padding: 70px 7%;
+            text-align: center;
+        }
+
+        section h2 {
+            font-size: 30px;
+            margin-bottom: 40px;
+            letter-spacing: 2px;
+        }
+
+        .categories {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .category {
+            width: 250px;
+            height: 300px;
+            background: #eee;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 20px;
+        }
+
+        .about {
+            background: #f8f8f8;
+        }
+
+        .about p {
+            max-width: 700px;
+            margin: auto;
+            line-height: 1.8;
+        }
+
+        footer {
+            padding: 40px;
+            text-align: center;
+            background: #222;
+            color: white;
+        }
+
+        footer a {
+            color: white;
+            text-decoration: none;
+        }
+
+        @media (max-width: 600px) {
+            .hero h1 {
+                font-size: 35px;
+            }
+
+            nav a {
+                margin-left: 10px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <div class="logo">HOUSE OF AASHIVA</div>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#collections">Collections</a>
+        <a href="#about">About</a>
+        <a href="https://www.instagram.com/house_of_aashiva/" target="_blank">
+            Instagram
+        </a>
+    </nav>
+</header>
+
+<section class="hero" id="home">
+    <div>
+        <h1>HOUSE OF AASHIVA</h1>
+        <p>Elegance. Style. You.</p>
+
+        <a href="#collections" class="button">
+            EXPLORE COLLECTION
+        </a>
+    </div>
+</section>
+
+<section id="collections">
+
+    <h2>OUR COLLECTIONS</h2>
+
+    <div class="categories">
+
+        <div class="category">
+            New Arrivals
+        </div>
+
+        <div class="category">
+            Ethnic Wear
+        </div>
+
+        <div class="category">
+            Contemporary
+        </div>
+
+    </div>
+
+</section>
+
+<section class="about" id="about">
+
+    <h2>ABOUT HOUSE OF AASHIVA</h2>
+
+    <p>
+        Welcome to House of Aashiva — a clothing brand created
+        for those who love effortless elegance and timeless style.
+        Discover our curated collection and find something that
+        feels uniquely you.
+    </p>
+
+</section>
+
+<section>
+
+    <h2>FOLLOW US</h2>
+
+    <p>
+        Follow House of Aashiva on Instagram for our latest
+        collections, new arrivals and updates.
+    </p>
+
+    <br>
+
+    <a
+        href="https://www.instagram.com/house_of_aashiva/"
+        target="_blank"
+        class="button"
+    >
+        FOLLOW ON INSTAGRAM
+    </a>
+
+</section>
+
+<footer>
+
+    <p>© 2026 House of Aashiva. All Rights Reserved.</p>
+
+</footer>
+
+</body>
+</html>
